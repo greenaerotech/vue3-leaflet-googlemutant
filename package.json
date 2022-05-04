@@ -2,9 +2,10 @@
   "name": "vue3-leaflet-googlemutant",
   "version": "0.0.1",
   "description": "Vue3 Leaflet Google Mutant",
-  "main": "build/index.js",
+  "main": "dist/Vue3LeafletGoogleMutant.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vue build Vue3LeafletGoogleMutant.vue --prod --lib --config build.config.js",
+    "example": "vue build example.vue"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   "keywords": [
     "node",
     "npm",
-    "vue",
+    "vue3",
     "leaflet",
     "google",
     "mutant"
@@ -23,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/greenaerotech/vue3-leaflet-googlemutant/issues"
   },
-  "homepage": "https://github.com/greenaerotech/vue3-leaflet-googlemutant#readme"
+  "homepage": "https://github.com/greenaerotech/vue3-leaflet-googlemutant#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^8.7.1"
+  }
 }
