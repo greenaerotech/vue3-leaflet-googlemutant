@@ -1,3 +1,8 @@
+# wkg
+.idea/
+.vscode/
+lib/
+
 # Logs
 logs
 *.log
