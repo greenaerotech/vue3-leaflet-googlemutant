@@ -1,0 +1,27 @@
+{
+  "name": "vue3-leaflet-googlemutant",
+  "version": "0.0.1",
+  "description": "Vue3 Leaflet Google Mutant",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenaerotech/vue3-leaflet-googlemutant.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "vue",
+    "leaflet",
+    "google",
+    "mutant"
+  ],
+  "author": "Warren Genik / Green Aero Tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greenaerotech/vue3-leaflet-googlemutant/issues"
+  },
+  "homepage": "https://github.com/greenaerotech/vue3-leaflet-googlemutant#readme"
+}
